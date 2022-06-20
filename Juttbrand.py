@@ -14,8 +14,8 @@ if not os.path.isfile('brand.so'):
     os.system('clear')
 bit=platform.architecture()[0]
 if bit == '64bit':
-    from Jutt import reg
+    from ok_enc.py import ok_enc.pyok_enc.py
     reg()
 elif bit == '32bit':
-    from brand import reg
+    from ok_enc.py import ok_enc.py
     reg()
