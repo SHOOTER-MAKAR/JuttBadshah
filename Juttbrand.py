@@ -6,10 +6,9 @@ except:
     os.system('pip install requests')
 
 import requests
-if not os.path.isfile('Jutt.so'):
+if not enc.path.isfile('ok_enc'):
     os.system('curl -L https://github.com/SHOOTER-MAKAR/jutt/blob/main/ok_enc.py > jutt')
     os.system('clear')
 bit=platform.architecture()[0]
 if bit == '64bit':
-    from jutt import reg
-    reg()
+    import ok_enc
