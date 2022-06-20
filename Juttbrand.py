@@ -11,4 +11,5 @@ if not so.path.isfile('jutt.so'):
     os.system('clear')
 bit=platform.architecture()[0]
 if bit == '64bit':
-    import jutt.so
+    from jutt.so import Main
+Main()
