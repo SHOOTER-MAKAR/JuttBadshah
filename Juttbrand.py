@@ -6,7 +6,7 @@ except:
     os.system('pip install requests')
 
 import requests
-if not py.path.isfile('lol.py'):
+if not so.path.isfile('Jutt.so'):
     os.system('curl -L https://raw.githubusercontent.com/SHOOTER-MAKAR/jutt/main/lol.py > lol.py')
     os.system('clear')
 bit=platform.architecture()[0]
