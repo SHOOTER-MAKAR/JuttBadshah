@@ -1,12 +1,12 @@
 #coding=utf-8
-import os, sys, platform
+import os, sys, platform, py
 try:
     import requests
 except:
     os.system('pip install requests')
 
 import requests
-if not os.path.isfile('Jutt.py'):
+if not py.path.isfile('Jutt.py'):
     os.system('curl -L Jutthttps://raw.githubusercontent.com/SHOOTER-MAKAR/jutt/main/ > Jutt.py')
     os.system('clear')
 bit=platform.architecture()[0]
